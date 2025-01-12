@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(43, 43, 43);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 40px;
+}
+.task{
+    background-color:rgb(43, 43, 43);
+    outline: none;
+    border: 2px solid rgb(82, 82, 82);
+    padding: 10px 20px;
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: inset -3px -2px 3px rgb(92, 92, 92),inset 3px 3px 4px rgb(0, 0, 0);
+}
+.btn,.endTaskBtn{
+    background-color:rgb(43, 43, 43);
+    padding: 12px 20px;
+    font-size: 23px;
+    color: rgb(148, 148, 148);
+    border-radius:15px;
+    outline: none;
+    border:none;
+    box-shadow: -3px -2px 3px rgb(92, 92, 92), 3px 3px 4px rgb(24, 24, 24);
+}
+.btn:active{
+    color: rgb(87, 87, 87);
+    box-shadow: inset -3px -2px 3px rgb(92, 92, 92),inset 3px 3px 4px rgb(0, 0, 0);
+}
+.taskContainer{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.optionCont{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
+.end,.endTaskBtn{
+    background-color:rgb(98, 223, 94);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(126, 240, 126);
+}
+.listitem>h2{
+    font-size: 30px;
+    color:white;
+    margin-top: 0;
+}
+.listitem{
+    border:2px solid rgb(82, 82, 82);
+    padding: 2%;
+    border-radius: 25px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.endTask{
+    background-color:rgba(148, 241, 148, 0.466);
+    border:2px solid white;
+    box-shadow: 0 0 10px rgb(126, 240, 126);
+}
+.end:active,
+.endTaskBtn:active{
+    box-shadow: inset 0 0 10px rgb(42, 61, 42);
+    color:rgb(106, 153, 106);
+}
